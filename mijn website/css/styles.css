@@ -6,12 +6,13 @@
 }
 
 img {
-border: 10px;
-border-radius: 20px;
-border-color: black;
-width: 100px;}
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    width: 100px;
+}
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,28 +22,36 @@ nav{
 }
 
 
+.midden{
+    margin-left: 500px;
+}
 
 
+body {
+    background-color: lightblue;
+}
 
-nav ul li{
+
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav ul li a:hover{
-    color:orange;
+nav ul li a:hover {
+    color: orange;
     transition: .3s;
 }
-button{
+
+button {
     border: none;
-    background:orange;
+    background: orange;
     padding: 12px 30px;
     border-radius: 30px;
     color: white;
