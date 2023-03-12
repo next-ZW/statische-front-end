@@ -1,11 +1,36 @@
+html{
+    background-color: gray;
+    padding: 20px;
+}
+
+body{
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
 h1{
     color: blue;
+}
+
+.first{
+    background-color:lightgreen;
+    padding: 10px 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .first h2{
     color: red;
 }
 
-.first p {
-       
+.first p{
+    font-weight: bolder;
+}
+
+.second {
+    background-color: darkgoldenrod;
+}
+
+.second h2{
+    color: darkgreen;
 }
