@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    border: 2px solid black;
+    max-width: 800px;
+    padding: 20px;
+}
+
+p{
+    font-size: medium;
+    text-align: center;
+}
+
+.right{
+    float: right;
+
+}
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+ 
